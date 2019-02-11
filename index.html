@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Psychic-Game</title>
+    <h1>The Psychic-Game</h1>
+    <link rel="stylesheet" href="/assets/css/reset.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/javascript/GuessingGame.js"></script> 
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <span> Guess what Letter I am thinking of</span>
+        </div>
+
+        <div class="row">
+            <span > Wins: </span>
+            <span id="wins"></span>
+
+        </div>
+
+        <div class="row">
+            <span> Losses: </span>
+            <span id="losses"></span>
+
+        </div>
+
+        <div class="row">
+            <span> Guesses left: </span>
+            <span id="guesses"></span>
+        </div>
+
+        <div class="row">
+            <span  > Your Guesses so far: </span>
+            <span id="soFar" onkeyup="keypresses()" ></span>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
